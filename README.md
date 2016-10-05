@@ -1,18 +1,18 @@
-yapf mirror
+isort mirror
 =============
 
-Mirror of yapf package for pre-commit.
+Mirror of isort package for pre-commit.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-For yapf: see https://github.com/google/yapf
+For isort: see https://github.com/timothycrosley/isort
 
 
-### Using yapf with pre-commit
+### Using isort with pre-commit
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: git://github.com/pre-commit/mirrors-yapf
+    -   repo: git://github.com/a-sk/mirrors-isort
         sha: ''  # Use the sha / tag you want to point at
         hooks:
-        -   id: yapf
+        -   id: isort

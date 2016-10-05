@@ -1,7 +1,7 @@
--   id: yapf
-    name: yapf
-    entry: yapf
+-   id: isort
+    name: isort
+    entry: isort
     language: python
     files: \.py$
-    args: [-i]
+    args: []
 

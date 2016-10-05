@@ -1,8 +1,7 @@
 from setuptools import setup
 
-
 setup(
     name='pre_commit_dummy_package',
-    version='0.0.0',
-    install_requires=['yapf==0.11.1'],
+    version='0.0.1',
+    install_requires=['isort==4.2.5'],
 )
